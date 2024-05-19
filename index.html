@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RanPassGen</title>
+    <style>
+        *{
+            background-color: azure;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            margin-top: 10%;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            gap: 20px;
+        }
+        button{
+            background-color: #25D366;
+            border: 2px 2px 2px 2px white;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+            box-shadow: none;
+        }
+        textarea{
+            width: 200px;
+            border-radius: 10px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <center> <h1>Generate Random Password</h1> </center>
+    <div>
+        <textarea id="password">Generated Password</textarea>
+        <button type="submit" onclick="passGen()">Generate</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
